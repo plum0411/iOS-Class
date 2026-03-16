@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		ACB2DC122F5E917100B760A8 /* 0309.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 0309.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB2DC122F5E917100B760A8 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		ACB2DC142F5E917100B760A8 /* 0309 */ = {
+		ACB2DC142F5E917100B760A8 /* iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 0309;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		ACB2DC092F5E917100B760A8 = {
 			isa = PBXGroup;
 			children = (
-				ACB2DC142F5E917100B760A8 /* 0309 */,
+				ACB2DC142F5E917100B760A8 /* iOS */,
 				ACB2DC132F5E917100B760A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		ACB2DC132F5E917100B760A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACB2DC122F5E917100B760A8 /* 0309.app */,
+				ACB2DC122F5E917100B760A8 /* iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACB2DC112F5E917100B760A8 /* 0309 */ = {
+		ACB2DC112F5E917100B760A8 /* iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACB2DC1D2F5E917200B760A8 /* Build configuration list for PBXNativeTarget "0309" */;
+			buildConfigurationList = ACB2DC1D2F5E917200B760A8 /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
 				ACB2DC0E2F5E917100B760A8 /* Sources */,
 				ACB2DC0F2F5E917100B760A8 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				ACB2DC142F5E917100B760A8 /* 0309 */,
+				ACB2DC142F5E917100B760A8 /* iOS */,
 			);
-			name = 0309;
+			name = iOS;
 			packageProductDependencies = (
 			);
 			productName = 0309;
-			productReference = ACB2DC122F5E917100B760A8 /* 0309.app */;
+			productReference = ACB2DC122F5E917100B760A8 /* iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ACB2DC0D2F5E917100B760A8 /* Build configuration list for PBXProject "0309" */;
+			buildConfigurationList = ACB2DC0D2F5E917100B760A8 /* Build configuration list for PBXProject "iOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACB2DC112F5E917100B760A8 /* 0309 */,
+				ACB2DC112F5E917100B760A8 /* iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACB2DC0D2F5E917100B760A8 /* Build configuration list for PBXProject "0309" */ = {
+		ACB2DC0D2F5E917100B760A8 /* Build configuration list for PBXProject "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACB2DC1B2F5E917200B760A8 /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACB2DC1D2F5E917200B760A8 /* Build configuration list for PBXNativeTarget "0309" */ = {
+		ACB2DC1D2F5E917200B760A8 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACB2DC1E2F5E917200B760A8 /* Debug */,
