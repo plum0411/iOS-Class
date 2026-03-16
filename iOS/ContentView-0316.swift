@@ -65,57 +65,6 @@ struct LoginContentView: View {
         }
     }
 }
-//struct LoginContentViewLeft: View {
-//    var body: some View {
-//        ZStack {
-//            // Background image covering safe areas
-//            Image("background")
-//                .resizable()
-//                .scaledToFill()
-//                .ignoresSafeArea()
-//
-//            // Main content
-//            VStack(spacing: 16) {
-//                // Title
-//                Text("Instant Developer")
-//                    .font(.system(size: 36, weight: .bold, design: .rounded))
-//                    .foregroundStyle(.indigo)
-//
-//                // Subtitle
-//                Text("Get help from experts in 15 minutes")
-//                    .font(.title3)
-//                    .foregroundStyle(.white)
-//                    .multilineTextAlignment(.center)
-//                    .padding(.horizontal, 30)
-//
-//                // Images row
-//                HStack(spacing: 16) {
-//                    Image("student")
-//                        .resizable()
-//                        .scaledToFit()
-//                    Image("tutor")
-//                        .resizable()
-//                        .scaledToFit()
-//                }
-//                .frame(height: 140)
-//
-//                // Hint text
-//                Text("Need help with coding problem? Register!")
-//                    .foregroundStyle(.white)
-//
-//                Spacer(minLength: 20)
-//
-//                // Buttons group
-//                HSignUpButtonGroup0316(
-//                    onSignUp: { print("Sign Up button tapped") },
-//                    onLogIn: { print("Log In button tapped") }
-//                )
-//            }
-//            .padding()
-//        }
-//    }
-//}
-
 // MARK: - Reusable Components
 
 struct HSignUpButtonGroup0316: View {
